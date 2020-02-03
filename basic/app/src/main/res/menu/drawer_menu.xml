@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/ic_dashboard"
+            android:title="DASHBOARD" />
+       
+
+
+        <item
+            android:id="@+id/samachar"
+            android:icon="@drawable/ic_import_contacts"
+            android:title="શૈક્ષણિક સમાચાર" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_call"
+            android:title="contact us" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_description"
+            android:title="About App (એપ વિશે)" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/item4"
+                android:icon="@drawable/ic_share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/item5"
+                android:icon="@drawable/ic_thumb"
+                android:title="Rate us" />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

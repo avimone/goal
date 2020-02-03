@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".about_us"
+    tools:openDrawer="start">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:id="@+id/toolbar_layout"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp"
+            app:title="About Us"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frame_layout">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/holo_green_dark">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/abouttext"
+                        android:layout_height="wrap_content"
+                        android:text="આ Gujarati Education Learning App
+GOAL ધોરણ 10 અને 12 ના દરેક વિદ્યાર્થીઓ તેમજ શિક્ષકો માટે અનોખી,અદ્વિતીય,અદભુત તેમજ milestone સમાન બની રહેશે. આ પ્રકારની પદ્ધતિનો ઉપયોગ ગુજરાતી શિક્ષણ જગતમાં પહેલી વખત થઈ રહ્યો છે.અમારી આ એપના ઉપયોગ દ્વારા વિદ્યાર્થીઓ ખૂબ જ થોડા સમયમાં થિયરીના વિષયોના લાંબા પ્રશ્નો ખૂબ જ સરળ ભાષામાં અને ટૂંકી રીતે પાકા કરી શકશે.થીયરી ના  વિષયના પ્રશ્નો ના જવાબ ની ભાષા અતિ સરળ તેમજ જુદા જુદા કલર કોડ આપીને તેમજ જરૂર પડે ત્યાં આકર્ષક ફોટો મૂકીને રજુ કરેલ છે.
+બોર્ડની પરીક્ષામાં પૂછાવાના અતિ અગત્યના પ્રશ્નો ની પણ રજૂઆત કરવામાં આવેલ છે.પ્રશ્નોના જવાબ સરળ રીતે  યાદ રહી જાય તે માટે સૂત્ર, મુદ્દા, તેમજ નિષ્ણાંતોના સુત્રો પણ મુકવામાં આવેલ છે.
+દરેક પ્રશ્નોના જવાબમાં હેતુલક્ષી પ્રશ્નો ( A,B,C) નો પણ સમાવેશ થઇ જશે. જે તમારે અલગથી પાકા નહીં કરવા પડે.
+અદભુત નિબંધો, વ્યાકરણની સરળ સમજૂતી, પરીક્ષામાં ખૂબ જ ઉપયોગી થાય તેવી tips તેમજ પ્રેરણાદાયી વાતો અને વાર્તાઓનો ભંડાર પણ આ એપમાં છે. "
+                        android:textStyle="normal"
+                        android:textSize="16dp"
+                        android:layout_centerInParent="true"/>
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adv"
+                        android:layout_width="352dp"
+                        android:layout_height="46dp"
+
+                        android:layout_marginTop="10dp"
+                        app:adSize="BANNER"
+                        app:adUnitId="ca-app-pub-8812355770507385/7002583318"
+                        ></com.google.android.gms.ads.AdView>
+
+
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_bar"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_layout"
+        app:menu="@menu/drawer_menu"/>
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

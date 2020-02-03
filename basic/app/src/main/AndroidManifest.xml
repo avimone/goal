@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gadgetspidy.basic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/goal_icon_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/goal_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".PDFViwerActivity23"></activity>
+        <activity android:name=".PDFViwerActivity22" />
+        <activity android:name=".PDFViwerActivity21" />
+        <activity android:name=".PDFActivity23" />
+        <activity android:name=".PDFActivity22" />
+        <activity android:name=".PDFActivity21" />
+        <activity android:name=".Help_pdf" />
+        <activity android:name=".Examtip_pdf" />
+        <activity android:name=".Gk_pdf" />
+        <activity android:name=".PDFViwerActivity20" />
+        <activity android:name=".PDFViwerActivity19" />
+        <activity android:name=".PDFViwerActivity18" />
+        <activity android:name=".PDFViwerActivity17" />
+        <activity android:name=".PDFActivity20" />
+        <activity android:name=".PDFActivity19" />
+        <activity android:name=".PDFActivity18" />
+        <activity android:name=".PDFActivity17" />
+        <activity android:name=".photo_pdf" />
+        <activity android:name=".suvichar_pdf" />
+        <activity android:name=".kavya_pdf" />
+        <activity android:name=".nibhandh_pdf" />
+        <activity android:name=".MOTIVATION_pdf" />
+        <activity android:name=".Gujrati_10_pdf" />
+        <activity android:name=".Maths_10_pdf" />
+        <activity android:name=".Samajik_vigyan_10_pdf" />
+        <activity android:name=".Sanskrut_10_pdf" />
+        <activity android:name=".PDFViwerActivity16" />
+        <activity android:name=".PDFViwerActivity15" />
+        <activity android:name=".PDFViwerActivity14" />
+        <activity android:name=".PDFViwerActivity13" />
+        <activity android:name=".PDFViwerActivity12" />
+        <activity android:name=".PDFActivity16" />
+        <activity android:name=".PDFActivity15" />
+        <activity android:name=".PDFActivity14" />
+        <activity android:name=".PDFActivity13" />
+        <activity android:name=".PDFActivity12" />
+        <activity android:name=".English_10_pdf" />
+        <activity android:name=".vigyan_10_pdf" />
+        <activity android:name=".vanijya_12_pdf" />
+        <activity android:name=".vvp_12_pdf" />
+        <activity android:name=".PDFViwerActivity11" />
+        <activity android:name=".PDFViwerActivity10" />
+        <activity android:name=".PDFViwerActivity9" />
+        <activity android:name=".PDFViwerActivity8" />
+        <activity android:name=".PDFActivity11" />
+        <activity android:name=".PDFActivity10" />
+        <activity android:name=".PDFActivity9" />
+        <activity android:name=".PDFActivity8" />
+        <activity android:name=".Samajsastra_12_pdf" />
+        <activity android:name=".Sanskrut_12_pdf" />
+        <activity android:name=".NamnaMultatvo_12_pdf" />
+        <activity android:name=".Gujrati_12_pdf" />
+        <activity android:name=".PDFViwerActivity7" />
+        <activity android:name=".PDFViwerActivity6" />
+        <activity android:name=".PDFViwerActivity5" />
+        <activity android:name=".PDFViwerActivity4" />
+        <activity android:name=".PDFActivity7" />
+        <activity android:name=".PDFActivity6" />
+        <activity android:name=".PDFActivity5" />
+        <activity android:name=".PDFActivity4" />
+        <activity android:name=".English_12_pdf" />
+        <activity android:name=".arthsastra_pdf" />
+        <activity android:name=".PDFActivity3" />
+        <activity android:name=".PDFActivity2" />
+        <activity android:name=".PDFViwerActivity3" />
+        <activity android:name=".PDFViwerActivity2" />
+        <activity android:name=".BHUGOL_12pdf" />
+        <activity android:name=".PDFViwerActivity1" />
+        <activity android:name=".PDFActivity1" />
+        <activity android:name=".Akdasastra_pdf" />
+        <activity android:name=".PDFActivity" />
+        <activity android:name=".PDFViwerActivity" />
+        <activity android:name=".web" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8812355770507385~1497021487" />
+
+        <activity android:name=".SAMACHAR" />
+        <activity android:name=".about_us" />
+        <activity android:name=".contact" />
+        <activity android:name=".PDFopener" />
+        <activity android:name=".twelth_subjects" />
+        <activity android:name=".classselect" />
+        <activity android:name=".tenth_subjects" />
+        <activity android:name=".flashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
